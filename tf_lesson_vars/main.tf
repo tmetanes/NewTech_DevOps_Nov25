@@ -33,7 +33,7 @@ resource "aws_vpc" "main" {
     cidr_block = "10.0.0.0/16"
 
     tags = {
-        Name = var.vpcname # Before terraform 0.12, we had to use the concat function to concatenate the strings
+        Name = var.vpcname 
     }
 }
 
@@ -72,8 +72,8 @@ resource "aws_vpc" "main" {
 
 # Tuples
 variable "mytuple" {
-  type = tuple([string, number])
-  default = ["apple", 1]
+  type = tuple([string, number, string])
+  default = ["apple", 1, "banana"]
 }
 
 resource "aws_vpc" "main" {
