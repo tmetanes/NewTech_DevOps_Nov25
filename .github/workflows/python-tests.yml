@@ -4,11 +4,7 @@
 name: Python Tests
 
 # When to run this workflow
-on:
-  push:              # Run when code is pushed
-    branches: [ main ]
-  #pull_request:      # Run when a pull request is created
-   # branches: [ main ]
+on: push
 
 jobs:
   # Job 1: Run our tests
