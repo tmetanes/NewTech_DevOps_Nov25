@@ -1,3 +1,6 @@
-name: Test Project			
-on: push	
-			
+name: Test Project
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
