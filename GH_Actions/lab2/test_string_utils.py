@@ -2,9 +2,9 @@
 Unit tests for string utility functions.
 """
 
-# merging branch ?
+# standard library imports
 
-import unittest w
+import unittest
 from string_utils import (
     reverse_string,
     is_palindrome,
