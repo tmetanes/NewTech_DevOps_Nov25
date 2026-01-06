@@ -24,5 +24,7 @@ jobs:
         run: |
          pytest
         working-directory: './GH_Actions/lab1'
+      - name: Done lab2
+        run: echo "Lab 2 completed"
         
            
