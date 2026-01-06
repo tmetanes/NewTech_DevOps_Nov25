@@ -20,9 +20,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
         working-directory: './GH_Actions/lab1'
-      - name: run test_calculator.py
+      - name: run test
         run: |
-         pytest
+         python -m pytest test_calculator.py
         working-directory: './GH_Actions/lab1'
       - name: Done lab2
         run: echo "Lab 2 completed"
