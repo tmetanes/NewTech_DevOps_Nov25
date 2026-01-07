@@ -22,7 +22,7 @@ jobs:
         working-directory: "./GH_Actions/lab2"
       - name: run it
         run: |
-          python pytest test_strings_utils.py
+          python test_strings_utils.py
         working-directory: "./GH_Actions/lab2"
       - name: Done lab2
         run: echo "deploying application"
